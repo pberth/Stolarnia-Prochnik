@@ -1,0 +1,40 @@
+{
+  "name": "stolarnia_prochnik",
+  "version": "0.0.1",
+  "description": "Strona firmowa usług stolarskich Ireneusza Sielickiego",
+  "productName": "Stolarnia Próchnik",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Paweł Berth <pawelberth@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "leaflet": "^1.6.0",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "quasar": "^1.0.0",
+    "vue-masonry": "^0.11.8",
+    "vue-typed-js": "^0.1.2",
+    "vue2-leaflet": "^2.4.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-masonry-css": "^1.0.3"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
