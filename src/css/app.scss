@@ -1,41 +1,64 @@
 // app global css in SCSS form
-body.screen--xs {
-  h2 {
-    font-size: 38px;
-  }
-  .description {
-    font-size: 16px;
-  }
-  .width_list {
-    width: 250px;
-
-    .q-item {
-      width: 250px;
+@media (max-width: $breakpoint-xs-max) {
+  body {
+    h2 {
+      font-size: 38px;
     }
-  }
-  .grid-item {
-    width: 100%;
-  }
-  .contact {
-    width: 100%;
+    .text_container {
+      .description {
+        font-size: 18px;
+      }
+    }
+    .width_list {
+      width: 250px;
+
+      .q-item {
+        width: 250px;
+      }
+    }
+    .masonry-container {
+      margin: 0 10px;
+      .grid-item {
+        width: 100%;
+      }
+    }
+    .contact {
+      width: 100%;
+    }
   }
 }
 
-body.screen--sm {
-  h2 {
-    font-size: 46px;
-  }
-  .width_list {
-    width: 300px;
-
-    .q-item {
+@media (max-width: $breakpoint-sm-max) {
+  body {
+    h2 {
+      font-size: 46px;
+    }
+    .width_list {
       width: 300px;
+
+      .q-item {
+        width: 300px;
+      }
+    }
+    .masonry-container {
+      margin: 0 20px;
+      .grid-item {
+        width: 100%;
+      }
+    }
+    .contact {
+      width: 100%;
     }
   }
-  .grid-item {
-    width: 49%;
-  }
-  .contact {
-    width: 100%;
+}
+
+@media (min-width: $breakpoint-xl-min) {
+  body {
+    .masonry-container {
+      margin: 0px 30px;
+      .grid-item {
+        width: 32.9%;
+      }
+    }
   }
 }

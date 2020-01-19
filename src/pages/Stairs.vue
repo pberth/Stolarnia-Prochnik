@@ -12,13 +12,11 @@
     >
       <div
         v-masonry-tile
-        class="grid-item item"
+        class="grid-item xsmall small item"
         :key="index"
         v-for="(item, index) in items"
       >
-        <div class>
-          <img class="img" :src="item.src" alt="" />
-        </div>
+        <img class="img" :src="item.src" alt="" />
       </div>
     </div>
   </q-page>
@@ -62,9 +60,9 @@ export default {
 <style lang="scss">
 .masonry-container {
   width: 100%;
-  margin: 50px 20px;
+  margin: 0 20px;
   .grid-item {
-    width: 32.5%;
+    width: 49.5%;
     .img {
       width: 100%;
     }

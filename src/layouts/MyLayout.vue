@@ -5,7 +5,7 @@
         <q-btn dense flat round icon="menu" @click="left = !left" />
 
         <q-toolbar-title>
-          <h4>Stolarnia Próchnik</h4>
+          <h1 class="text-h5 text-weight-bold">Stolarnia Próchnik</h1>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -101,9 +101,16 @@
 
     <q-footer elevated class="bg-grey-8 text-white row items-center">
       <q-toolbar>
-        <q-btn dense flat round icon="menu" @click="left = !left" />
+        <q-btn
+          class="q-ma-sm"
+          dense
+          flat
+          round
+          icon="menu"
+          @click="left = !left"
+        />
         <div
-          class="flex flex-center column q-pa-sm col-xs-10 col-sm-10 col-md-9"
+          class="flex flex-center column q-pa-sm col-xs-12 col-sm-12 col-md-9"
         >
           <span class="align">
             Usługi stolarskie Ireneusz Czesław Sielicki</span
