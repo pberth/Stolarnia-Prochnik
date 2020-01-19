@@ -1,6 +1,6 @@
 # Stolarnia Próchnik (stolarnia_prochnik)
 
-Strona firmowa usług stolarskich Ireneusza Sielickiego
+Strona firmowa usług stolarskich Ireneusza Sielickiego (w trakcie przygotowywania)
 
 ## Install the dependencies
 ```bash
